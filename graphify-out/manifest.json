@@ -1,0 +1,677 @@
+{
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/tests/test_maintenance.py": {
+    "mtime": 1778929094.7342267,
+    "ast_hash": "0a7c6492a000ebe54fda74b30674e585",
+    "semantic_hash": "0a7c6492a000ebe54fda74b30674e585"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/tests/test_health.py": {
+    "mtime": 1778923899.324719,
+    "ast_hash": "e0eecc6564252a71207faac0de9f6ab4",
+    "semantic_hash": "e0eecc6564252a71207faac0de9f6ab4"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/tests/test_systems.py": {
+    "mtime": 1778929094.7342267,
+    "ast_hash": "4f6455f6be8dadf0fc25cd97257b5f9d",
+    "semantic_hash": "4f6455f6be8dadf0fc25cd97257b5f9d"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/tests/test_dashboard.py": {
+    "mtime": 1778929094.7342267,
+    "ast_hash": "fbf7cb5df6397e174b5eb90cbcda8352",
+    "semantic_hash": "fbf7cb5df6397e174b5eb90cbcda8352"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/tests/test_main.py": {
+    "mtime": 1778929105.165178,
+    "ast_hash": "16d8f5881b9470e465bf05ae6b52a3c4",
+    "semantic_hash": "16d8f5881b9470e465bf05ae6b52a3c4"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/tests/conftest.py": {
+    "mtime": 1778929105.185178,
+    "ast_hash": "2690cb7231e98b440842733a75ee3f23",
+    "semantic_hash": "2690cb7231e98b440842733a75ee3f23"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/tests/test_buildings.py": {
+    "mtime": 1778929094.7342267,
+    "ast_hash": "3ed55b41bd78eaadea93b0c8061cf44a",
+    "semantic_hash": "3ed55b41bd78eaadea93b0c8061cf44a"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/tests/__init__.py": {
+    "mtime": 1778923899.3242342,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/tests/test_tenants.py": {
+    "mtime": 1778929094.7342267,
+    "ast_hash": "c4ccaa3bb152123ab329f08b3be7ee35",
+    "semantic_hash": "c4ccaa3bb152123ab329f08b3be7ee35"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/dependencies.py": {
+    "mtime": 1778929002.2739108,
+    "ast_hash": "7b55136868ee8864b7da0b34b3dcf51a",
+    "semantic_hash": "7b55136868ee8864b7da0b34b3dcf51a"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/routers.py": {
+    "mtime": 1778929002.2739108,
+    "ast_hash": "80c628924956a1aa1514669a0613110b",
+    "semantic_hash": "80c628924956a1aa1514669a0613110b"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/config.py": {
+    "mtime": 1778929002.2739108,
+    "ast_hash": "aa3236f8f7e1e2706de4fd7c4ebdd1d7",
+    "semantic_hash": "aa3236f8f7e1e2706de4fd7c4ebdd1d7"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/models.py": {
+    "mtime": 1778928859.0928333,
+    "ast_hash": "14a0b826bcb8bd49d04b5c727f66bc5c",
+    "semantic_hash": "14a0b826bcb8bd49d04b5c727f66bc5c"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/__init__.py": {
+    "mtime": 1778923899.3227987,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/repositories/tenant.py": {
+    "mtime": 1778928913.0691981,
+    "ast_hash": "dbddb128bbd48650192738b55b9d9e6f",
+    "semantic_hash": "dbddb128bbd48650192738b55b9d9e6f"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/repositories/building.py": {
+    "mtime": 1778928913.0691981,
+    "ast_hash": "086d886d3de31991739f25f65cc33fc5",
+    "semantic_hash": "086d886d3de31991739f25f65cc33fc5"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/repositories/base_repo.py": {
+    "mtime": 1778923899.3242342,
+    "ast_hash": "9d02d98e0b3a4809d383f544a32265b7",
+    "semantic_hash": "9d02d98e0b3a4809d383f544a32265b7"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/repositories/maintenance.py": {
+    "mtime": 1778928913.0691981,
+    "ast_hash": "7da8d39f98546b38c665006738aa9782",
+    "semantic_hash": "7da8d39f98546b38c665006738aa9782"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/repositories/__init__.py": {
+    "mtime": 1778928913.0691981,
+    "ast_hash": "4db545283df20ab257dc23092d357233",
+    "semantic_hash": "4db545283df20ab257dc23092d357233"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/repositories/system.py": {
+    "mtime": 1778928913.0691981,
+    "ast_hash": "118a275f69a1f1044dd65328e8508361",
+    "semantic_hash": "118a275f69a1f1044dd65328e8508361"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/api/main.py": {
+    "mtime": 1778928982.1931248,
+    "ast_hash": "6c62f6f6b86d58d130c3c9460f5e8ca2",
+    "semantic_hash": "6c62f6f6b86d58d130c3c9460f5e8ca2"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/api/__init__.py": {
+    "mtime": 1778923899.3231516,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/api/routes/health.py": {
+    "mtime": 1778923899.323343,
+    "ast_hash": "51f50cb90a70efb0f8cd954397c68f10",
+    "semantic_hash": "51f50cb90a70efb0f8cd954397c68f10"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/api/routes/__init__.py": {
+    "mtime": 1778923899.3232055,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/api/v1/tenants.py": {
+    "mtime": 1778928970.6672592,
+    "ast_hash": "daecf6dc8169f95b6866880027d69e31",
+    "semantic_hash": "daecf6dc8169f95b6866880027d69e31"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/api/v1/systems.py": {
+    "mtime": 1778928970.6672592,
+    "ast_hash": "c2eb5fd6e29f27b843bff061c2ad1df4",
+    "semantic_hash": "c2eb5fd6e29f27b843bff061c2ad1df4"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/api/v1/dashboard.py": {
+    "mtime": 1778928970.6672592,
+    "ast_hash": "941ae7fe6debb6c6a72897e87c143b3e",
+    "semantic_hash": "941ae7fe6debb6c6a72897e87c143b3e"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/api/v1/maintenance.py": {
+    "mtime": 1778928970.6672592,
+    "ast_hash": "58b6ba9649f1cb68acd335bfe3e83c64",
+    "semantic_hash": "58b6ba9649f1cb68acd335bfe3e83c64"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/api/v1/buildings.py": {
+    "mtime": 1778928970.6672592,
+    "ast_hash": "65afb07e4f80c458798957b9a788f0ff",
+    "semantic_hash": "65afb07e4f80c458798957b9a788f0ff"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/api/v1/__init__.py": {
+    "mtime": 1778928982.177125,
+    "ast_hash": "d596178d0f89219234b1efb3079c19da",
+    "semantic_hash": "d596178d0f89219234b1efb3079c19da"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/schemas/tenant.py": {
+    "mtime": 1778928891.2869477,
+    "ast_hash": "d793a33a019726c18341110512a65ec2",
+    "semantic_hash": "d793a33a019726c18341110512a65ec2"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/schemas/building.py": {
+    "mtime": 1778928891.2869477,
+    "ast_hash": "93cd2e958c32b9fcf347cffa27868550",
+    "semantic_hash": "93cd2e958c32b9fcf347cffa27868550"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/schemas/maintenance.py": {
+    "mtime": 1778928891.2869477,
+    "ast_hash": "a90d6aacbbb82a339a664cb9f9d7c766",
+    "semantic_hash": "a90d6aacbbb82a339a664cb9f9d7c766"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/schemas/__init__.py": {
+    "mtime": 1778928891.2869477,
+    "ast_hash": "a7a19ea10fe81e8ba1d7f192113f5979",
+    "semantic_hash": "a7a19ea10fe81e8ba1d7f192113f5979"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/schemas/system.py": {
+    "mtime": 1778928891.2869477,
+    "ast_hash": "670c929a3a38b7124fcd80f507d62920",
+    "semantic_hash": "670c929a3a38b7124fcd80f507d62920"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/models/tenant.py": {
+    "mtime": 1778928859.0928333,
+    "ast_hash": "58ebcdd22554eb78ea074a4bfee1beb7",
+    "semantic_hash": "58ebcdd22554eb78ea074a4bfee1beb7"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/models/building.py": {
+    "mtime": 1778928859.0928333,
+    "ast_hash": "be308d04a388d39d05c09956d421aabb",
+    "semantic_hash": "be308d04a388d39d05c09956d421aabb"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/models/base.py": {
+    "mtime": 1778923899.3241122,
+    "ast_hash": "6fbdbd7a1b1fbb8a6ce2ecf6f38450ff",
+    "semantic_hash": "6fbdbd7a1b1fbb8a6ce2ecf6f38450ff"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/models/maintenance.py": {
+    "mtime": 1778928859.0928333,
+    "ast_hash": "11ed871e97a177e7838929e9a650cd35",
+    "semantic_hash": "11ed871e97a177e7838929e9a650cd35"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/models/__init__.py": {
+    "mtime": 1778928891.2869477,
+    "ast_hash": "9f6a39b935eca1bc3b2289035dc590bd",
+    "semantic_hash": "9f6a39b935eca1bc3b2289035dc590bd"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/models/system.py": {
+    "mtime": 1778928859.0928333,
+    "ast_hash": "418a4c3fbc55c6dcb8e2150cc2dea84d",
+    "semantic_hash": "418a4c3fbc55c6dcb8e2150cc2dea84d"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/core/utils.py": {
+    "mtime": 1778923899.3237457,
+    "ast_hash": "2eb4fa433770dbcf9b7ebd03c16e560b",
+    "semantic_hash": "2eb4fa433770dbcf9b7ebd03c16e560b"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/core/database.py": {
+    "mtime": 1778923899.3237457,
+    "ast_hash": "a55a40e371b173ab887ebf5e27546850",
+    "semantic_hash": "a55a40e371b173ab887ebf5e27546850"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/core/config.py": {
+    "mtime": 1778929008.4928493,
+    "ast_hash": "8250f7a4dfcf771336e5f3dd70aeb07a",
+    "semantic_hash": "8250f7a4dfcf771336e5f3dd70aeb07a"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/core/__init__.py": {
+    "mtime": 1778923899.323343,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/services/dashboard.py": {
+    "mtime": 1778929002.2739108,
+    "ast_hash": "08e80b6ddf733ca7b7f280a30cb12f27",
+    "semantic_hash": "08e80b6ddf733ca7b7f280a30cb12f27"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/services/__init__.py": {
+    "mtime": 1778929002.2739108,
+    "ast_hash": "235eb18e9078d09c55aa6f9a07a2c597",
+    "semantic_hash": "235eb18e9078d09c55aa6f9a07a2c597"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/app/utils/__init__.py": {
+    "mtime": 1778923899.3242342,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/alembic/env.py": {
+    "mtime": 1778927697.5399046,
+    "ast_hash": "99162b643f6883d973e030b8ef5b270e",
+    "semantic_hash": "99162b643f6883d973e030b8ef5b270e"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/alembic/__init__.py": {
+    "mtime": 1778923899.3222573,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/alembic/versions/001_initial_crm.py": {
+    "mtime": 1778924768.8314137,
+    "ast_hash": "9465b8c9acf11c8f8e7d28830eb89f21",
+    "semantic_hash": "9465b8c9acf11c8f8e7d28830eb89f21"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/alembic/versions/002_building_management.py": {
+    "mtime": 1778929030.61065,
+    "ast_hash": "50eefda384dfc287a77c5db3fd7231fd",
+    "semantic_hash": "50eefda384dfc287a77c5db3fd7231fd"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/docs/meta.json": {
+    "mtime": 1778923899.3254147,
+    "ast_hash": "2cf148bb6bc63062531a5c0bda928f64",
+    "semantic_hash": "2cf148bb6bc63062531a5c0bda928f64"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/tailwind.config.ts": {
+    "mtime": 1778923899.3290515,
+    "ast_hash": "bcafbbf0cfe58aeb67034c286851441d",
+    "semantic_hash": "bcafbbf0cfe58aeb67034c286851441d"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/postcss.config.mjs": {
+    "mtime": 1778923899.327106,
+    "ast_hash": "fe13e972825095c90d22b2112d757993",
+    "semantic_hash": "fe13e972825095c90d22b2112d757993"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/tsconfig.json": {
+    "mtime": 1778923899.3290515,
+    "ast_hash": "3bd7a3770c6b44dbcaab1d2f175db8bd",
+    "semantic_hash": "3bd7a3770c6b44dbcaab1d2f175db8bd"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/next.config.js": {
+    "mtime": 1778923899.327106,
+    "ast_hash": "13fbb9936a12daacc1b5f95f1a1c602e",
+    "semantic_hash": "13fbb9936a12daacc1b5f95f1a1c602e"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/package.json": {
+    "mtime": 1778923899.327106,
+    "ast_hash": "47df5dd6e6af888db7bfe7982696a94f",
+    "semantic_hash": "47df5dd6e6af888db7bfe7982696a94f"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/next-env.d.ts": {
+    "mtime": 1778929795.0840716,
+    "ast_hash": "b5ed9dd8b4c5ba8e5ab8e6a379c15838",
+    "semantic_hash": "b5ed9dd8b4c5ba8e5ab8e6a379c15838"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/src/components/ui/label.tsx": {
+    "mtime": 1778923899.3283281,
+    "ast_hash": "874216b95b72f23579a562f78955a276",
+    "semantic_hash": "874216b95b72f23579a562f78955a276"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/src/components/ui/input.tsx": {
+    "mtime": 1778923899.3283281,
+    "ast_hash": "20c7d814efed7c1cb30937a9bcca5089",
+    "semantic_hash": "20c7d814efed7c1cb30937a9bcca5089"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/src/components/ui/avatar.tsx": {
+    "mtime": 1778923899.3282495,
+    "ast_hash": "cd70cb254ea891a7d55c64a2304a8196",
+    "semantic_hash": "cd70cb254ea891a7d55c64a2304a8196"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/src/components/ui/button.tsx": {
+    "mtime": 1778923899.3283281,
+    "ast_hash": "97b90752432a6ed8629f9774424d2ebe",
+    "semantic_hash": "97b90752432a6ed8629f9774424d2ebe"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/src/components/ui/tabs.tsx": {
+    "mtime": 1778923899.3283281,
+    "ast_hash": "7d4fe584503dc4122d11418239e05f98",
+    "semantic_hash": "7d4fe584503dc4122d11418239e05f98"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/src/components/ui/dialog.tsx": {
+    "mtime": 1778923899.3283281,
+    "ast_hash": "6394d8caae9db6ca79e465921a839982",
+    "semantic_hash": "6394d8caae9db6ca79e465921a839982"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/src/components/ui/select.tsx": {
+    "mtime": 1778923899.3283281,
+    "ast_hash": "e47ac9814247139df2ab1d7d233fa453",
+    "semantic_hash": "e47ac9814247139df2ab1d7d233fa453"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/src/components/ui/card.tsx": {
+    "mtime": 1778923899.3283281,
+    "ast_hash": "7e91edc9bf303578c1e7bcdde9366134",
+    "semantic_hash": "7e91edc9bf303578c1e7bcdde9366134"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/src/components/ui/badge.tsx": {
+    "mtime": 1778923899.3283281,
+    "ast_hash": "b23999a2d3f73b74d46c949dfa469552",
+    "semantic_hash": "b23999a2d3f73b74d46c949dfa469552"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/src/components/ui/table.tsx": {
+    "mtime": 1778923899.3283281,
+    "ast_hash": "0d12893a077e8a94c0b4ec6b8d16e1dc",
+    "semantic_hash": "0d12893a077e8a94c0b4ec6b8d16e1dc"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/src/app/layout.tsx": {
+    "mtime": 1778929179.644983,
+    "ast_hash": "5be118e3da17f30b916471489b5b1820",
+    "semantic_hash": "5be118e3da17f30b916471489b5b1820"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/src/app/page.tsx": {
+    "mtime": 1778929205.867973,
+    "ast_hash": "776e45ba539675d00fa8be2811b307e7",
+    "semantic_hash": "776e45ba539675d00fa8be2811b307e7"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/src/app/buildings/page.tsx": {
+    "mtime": 1778929868.522418,
+    "ast_hash": "e3a517475029a37e3774981e7954804f",
+    "semantic_hash": "e3a517475029a37e3774981e7954804f"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/src/app/buildings/new/page.tsx": {
+    "mtime": 1778929396.7714581,
+    "ast_hash": "e34e97ca6769ad065d49529a1bca01c1",
+    "semantic_hash": "e34e97ca6769ad065d49529a1bca01c1"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/src/app/buildings/[id]/page.tsx": {
+    "mtime": 1778929882.281369,
+    "ast_hash": "76e943c6cb3b1c34546190804c6e7238",
+    "semantic_hash": "76e943c6cb3b1c34546190804c6e7238"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/src/app/maintenance/page.tsx": {
+    "mtime": 1778929868.522418,
+    "ast_hash": "e12ebcfd296ca225bd34d000d1aee5e2",
+    "semantic_hash": "e12ebcfd296ca225bd34d000d1aee5e2"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/src/app/maintenance/new/page.tsx": {
+    "mtime": 1778929447.1110325,
+    "ast_hash": "daf723611671271b39aea67ae86ee797",
+    "semantic_hash": "daf723611671271b39aea67ae86ee797"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/src/lib/utils.ts": {
+    "mtime": 1778923899.3290515,
+    "ast_hash": "ea1c194ee828369e6fcdde84b4d8b8ba",
+    "semantic_hash": "ea1c194ee828369e6fcdde84b4d8b8ba"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/src/lib/api.ts": {
+    "mtime": 1778929179.644983,
+    "ast_hash": "bde4a5f4603ef89b0b3a0d5ff3b62597",
+    "semantic_hash": "bde4a5f4603ef89b0b3a0d5ff3b62597"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/components/Header.tsx": {
+    "mtime": 1778929831.043591,
+    "ast_hash": "4a179662906c1e8a19a254cfea408494",
+    "semantic_hash": "4a179662906c1e8a19a254cfea408494"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/components/Dashboard.tsx": {
+    "mtime": 1778929831.043591,
+    "ast_hash": "f8c416492c7079e9a07b3fc9159f959a",
+    "semantic_hash": "f8c416492c7079e9a07b3fc9159f959a"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/app/loading.tsx": {
+    "mtime": 1778929647.576089,
+    "ast_hash": "1f06424c021815191cf94b4bf324bd58",
+    "semantic_hash": "1f06424c021815191cf94b4bf324bd58"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/app/error.tsx": {
+    "mtime": 1778929703.2487955,
+    "ast_hash": "f44b6ce3ea6c422d04362bb86a89afda",
+    "semantic_hash": "f44b6ce3ea6c422d04362bb86a89afda"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/app/layout.tsx": {
+    "mtime": 1778929754.6974914,
+    "ast_hash": "8481058d303172f3e5065089a34ca7b9",
+    "semantic_hash": "8481058d303172f3e5065089a34ca7b9"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/app/page.tsx": {
+    "mtime": 1778929703.2487955,
+    "ast_hash": "b93b2d6681f5817672eaaf107ae75355",
+    "semantic_hash": "b93b2d6681f5817672eaaf107ae75355"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/app/buildings/page.tsx": {
+    "mtime": 1778929778.9548326,
+    "ast_hash": "1f2aceff779aa5e69efd198dc1a28784",
+    "semantic_hash": "1f2aceff779aa5e69efd198dc1a28784"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/app/buildings/new/page.tsx": {
+    "mtime": 1778929778.9548326,
+    "ast_hash": "48b12673d2189134be9c8bcebf0e4bf4",
+    "semantic_hash": "48b12673d2189134be9c8bcebf0e4bf4"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/app/buildings/[id]/page.tsx": {
+    "mtime": 1778929778.9548326,
+    "ast_hash": "4c9dd61a53f47d5524a186fdbabe4088",
+    "semantic_hash": "4c9dd61a53f47d5524a186fdbabe4088"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/app/maintenance/page.tsx": {
+    "mtime": 1778929778.9548326,
+    "ast_hash": "b7b2b9de1b9b3b4ffb41e331d10bbeae",
+    "semantic_hash": "b7b2b9de1b9b3b4ffb41e331d10bbeae"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/app/maintenance/new/page.tsx": {
+    "mtime": 1778929778.9548326,
+    "ast_hash": "6751e0b825b32286eb6b0d89f6116879",
+    "semantic_hash": "6751e0b825b32286eb6b0d89f6116879"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/lib/utils.ts": {
+    "mtime": 1778923899.327106,
+    "ast_hash": "fceab9672bb51961f2c7199baa4af51f",
+    "semantic_hash": "fceab9672bb51961f2c7199baa4af51f"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/frontend/lib/api.ts": {
+    "mtime": 1778923899.3269026,
+    "ast_hash": "5bbf31b894735d4f971c9fc5b800774e",
+    "semantic_hash": "5bbf31b894735d4f971c9fc5b800774e"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/PRODUCT-SPEC.md": {
+    "mtime": 1778923899.3205402,
+    "ast_hash": "4bce446a6939fdb0a07ce9a13bb8628e",
+    "semantic_hash": "4bce446a6939fdb0a07ce9a13bb8628e"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/SCALING-PLAYBOOK.md": {
+    "mtime": 1778923899.3205402,
+    "ast_hash": "a0c71a78655fd06053a1109e3d85ebca",
+    "semantic_hash": "a0c71a78655fd06053a1109e3d85ebca"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/docker-compose.yml": {
+    "mtime": 1778923899.324719,
+    "ast_hash": "a9a5d349213605ae954bcacd68907984",
+    "semantic_hash": "a9a5d349213605ae954bcacd68907984"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/PATCHES.md": {
+    "mtime": 1778923899.3205402,
+    "ast_hash": "991733c05665246cf2093b4e5727a8f8",
+    "semantic_hash": "991733c05665246cf2093b4e5727a8f8"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/README.md": {
+    "mtime": 1778923899.3205402,
+    "ast_hash": "542bd6f2b6ba6c6f8b8de12d476da3b7",
+    "semantic_hash": "542bd6f2b6ba6c6f8b8de12d476da3b7"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/AGENTS.md": {
+    "mtime": 1778923899.3205402,
+    "ast_hash": "44f5a15f7b3a5c6eec0819bc337566a6",
+    "semantic_hash": "44f5a15f7b3a5c6eec0819bc337566a6"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/PLAN-v1.2.md": {
+    "mtime": 1778929970.760778,
+    "ast_hash": "4fa96e0454823916599d74987ac2d593",
+    "semantic_hash": "4fa96e0454823916599d74987ac2d593"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/AGENT-PROMPTS.md": {
+    "mtime": 1778923899.3205402,
+    "ast_hash": "575029013c93c0caddbb2c5fdcacda8b",
+    "semantic_hash": "575029013c93c0caddbb2c5fdcacda8b"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/PATCH-2026-05-15-shared-hub-postgres.md": {
+    "mtime": 1778923899.3205402,
+    "ast_hash": "9ca6f76d54df4d000849af7a3fcb54eb",
+    "semantic_hash": "9ca6f76d54df4d000849af7a3fcb54eb"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/TEAM-ONBOARDING-GUIDE.md": {
+    "mtime": 1778923899.3205402,
+    "ast_hash": "dbd8f5d3dafd8e6c8eb668ffa3e748be",
+    "semantic_hash": "dbd8f5d3dafd8e6c8eb668ffa3e748be"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/.github/workflows/claude-code-review.yml": {
+    "mtime": 1778923899.3202598,
+    "ast_hash": "5079400de856707524c884e89e366799",
+    "semantic_hash": "5079400de856707524c884e89e366799"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/.github/workflows/claude.yml": {
+    "mtime": 1778923899.3202598,
+    "ast_hash": "995b9db52dace3af043903f678a61551",
+    "semantic_hash": "995b9db52dace3af043903f678a61551"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/.github/workflows/ci.yml": {
+    "mtime": 1778923899.3200953,
+    "ast_hash": "18675c093b7986a8092e68e8bde846e1",
+    "semantic_hash": "18675c093b7986a8092e68e8bde846e1"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/backend/requirements.txt": {
+    "mtime": 1778923899.3242342,
+    "ast_hash": "973cb52b26fd448774f049c60feac28f",
+    "semantic_hash": "973cb52b26fd448774f049c60feac28f"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/helm/Chart.yaml": {
+    "mtime": 1778923899.3290515,
+    "ast_hash": "e76679dbe91e10766ebc5e3b0238fcf4",
+    "semantic_hash": "e76679dbe91e10766ebc5e3b0238fcf4"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/helm/values.yaml": {
+    "mtime": 1778929927.2620754,
+    "ast_hash": "dc59789365494b98ae1f6ef7949961b6",
+    "semantic_hash": "dc59789365494b98ae1f6ef7949961b6"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/helm/templates/deployment.yaml": {
+    "mtime": 1778923899.329824,
+    "ast_hash": "d9e04cbcdbe7f1a0483040f90d4c07ae",
+    "semantic_hash": "d9e04cbcdbe7f1a0483040f90d4c07ae"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/helm/templates/service.yaml": {
+    "mtime": 1778923899.329824,
+    "ast_hash": "3c871e3de514581590418a3fc6aa7067",
+    "semantic_hash": "3c871e3de514581590418a3fc6aa7067"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/helm/templates/NOTES.txt": {
+    "mtime": 1778923899.3294632,
+    "ast_hash": "0d8c686e4a08a665267d3d8fe03707c9",
+    "semantic_hash": "0d8c686e4a08a665267d3d8fe03707c9"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/helm/dclaw-building/Chart.yaml": {
+    "mtime": 1778923899.329317,
+    "ast_hash": "3397aafcfc024883eafe888f11686078",
+    "semantic_hash": "3397aafcfc024883eafe888f11686078"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/helm/dclaw-building/values.yaml": {
+    "mtime": 1778923899.3294632,
+    "ast_hash": "ed251a0d3b4fcfe8b6fee7f1ef3335e5",
+    "semantic_hash": "ed251a0d3b4fcfe8b6fee7f1ef3335e5"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/helm/dclaw-building/templates/deployment.yaml": {
+    "mtime": 1778923899.3294632,
+    "ast_hash": "c2cf12b5953b4cf1afd17ff54b10a038",
+    "semantic_hash": "c2cf12b5953b4cf1afd17ff54b10a038"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/helm/dclaw-building/templates/configmap.yaml": {
+    "mtime": 1778923899.3294632,
+    "ast_hash": "fe2a70e05808e0b27412f5189a8539e9",
+    "semantic_hash": "fe2a70e05808e0b27412f5189a8539e9"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/helm/dclaw-building/templates/hpa.yaml": {
+    "mtime": 1778923899.3294632,
+    "ast_hash": "dc8498be85251f95ed11b910ee58c3ef",
+    "semantic_hash": "dc8498be85251f95ed11b910ee58c3ef"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/helm/dclaw-building/templates/service.yaml": {
+    "mtime": 1778923899.3294632,
+    "ast_hash": "fb2d51ea6770df878b83c15b94ca0206",
+    "semantic_hash": "fb2d51ea6770df878b83c15b94ca0206"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/helm/dclaw-building/templates/ingress.yaml": {
+    "mtime": 1778923899.3294632,
+    "ast_hash": "c48649c7cf8a621f3e1fdcd3c1a3b4c8",
+    "semantic_hash": "c48649c7cf8a621f3e1fdcd3c1a3b4c8"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/docs/README.md": {
+    "mtime": 1778923899.324719,
+    "ast_hash": "186256d2ec99c7197f59339942ef15a3",
+    "semantic_hash": "186256d2ec99c7197f59339942ef15a3"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/docs/getting-started/installation.md": {
+    "mtime": 1778923899.3251417,
+    "ast_hash": "474702ac61527c4050909be49d31793b",
+    "semantic_hash": "474702ac61527c4050909be49d31793b"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/docs/getting-started/configuration.md": {
+    "mtime": 1778923899.325051,
+    "ast_hash": "0f02ee5a3cffb3065e69ff284991d2e1",
+    "semantic_hash": "0f02ee5a3cffb3065e69ff284991d2e1"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/docs/getting-started/index.md": {
+    "mtime": 1778923899.3251417,
+    "ast_hash": "fe116bb2d6c33d215c2c007ebc24f025",
+    "semantic_hash": "fe116bb2d6c33d215c2c007ebc24f025"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/docs/getting-started/quickstart.md": {
+    "mtime": 1778923899.3251417,
+    "ast_hash": "ef522fc51c7c3adb54b650f4df732ae5",
+    "semantic_hash": "ef522fc51c7c3adb54b650f4df732ae5"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/docs/releases/index.md": {
+    "mtime": 1778923899.3258774,
+    "ast_hash": "e703f7e818beada932e717a8f23ea274",
+    "semantic_hash": "e703f7e818beada932e717a8f23ea274"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/docs/releases/changelog.md": {
+    "mtime": 1778923899.3256466,
+    "ast_hash": "a40f4eb48f38d4b6097071645a35a4dc",
+    "semantic_hash": "a40f4eb48f38d4b6097071645a35a4dc"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/docs/releases/roadmap.md": {
+    "mtime": 1778923899.3258774,
+    "ast_hash": "2177d911629a959b0f962cb5fa9acdd7",
+    "semantic_hash": "2177d911629a959b0f962cb5fa9acdd7"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/docs/troubleshooting/faq.md": {
+    "mtime": 1778923899.3261025,
+    "ast_hash": "4edf1f4cac32aa3694bcc3aadc51c413",
+    "semantic_hash": "4edf1f4cac32aa3694bcc3aadc51c413"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/docs/troubleshooting/index.md": {
+    "mtime": 1778923899.3261025,
+    "ast_hash": "2c7b93f39dbccde096f307a3fcff49d9",
+    "semantic_hash": "2c7b93f39dbccde096f307a3fcff49d9"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/docs/troubleshooting/common-issues.md": {
+    "mtime": 1778923899.3258774,
+    "ast_hash": "ff359cb4f3a7b43c36d99153e42ab3eb",
+    "semantic_hash": "ff359cb4f3a7b43c36d99153e42ab3eb"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/docs/reference/architecture.md": {
+    "mtime": 1778923899.3256466,
+    "ast_hash": "1925561e474c5dfbd004fab2c75f634f",
+    "semantic_hash": "1925561e474c5dfbd004fab2c75f634f"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/docs/reference/api.md": {
+    "mtime": 1778923899.3254147,
+    "ast_hash": "17941ea00f747391be5e81a0dc39ab4f",
+    "semantic_hash": "17941ea00f747391be5e81a0dc39ab4f"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/docs/reference/stack.md": {
+    "mtime": 1778923899.3256466,
+    "ast_hash": "d266c5176d35b210e50acfdcd2503858",
+    "semantic_hash": "d266c5176d35b210e50acfdcd2503858"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/docs/reference/index.md": {
+    "mtime": 1778923899.3256466,
+    "ast_hash": "3b4ea5df3b5871a9999e0fea99555976",
+    "semantic_hash": "3b4ea5df3b5871a9999e0fea99555976"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/docs/guides/index.md": {
+    "mtime": 1778923899.3254147,
+    "ast_hash": "a1c36c176d35f155dcf71c6696c28479",
+    "semantic_hash": "a1c36c176d35f155dcf71c6696c28479"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/docs/guides/best-practices.md": {
+    "mtime": 1778923899.3251417,
+    "ast_hash": "f1fef7472c1340b058b3708c20101218",
+    "semantic_hash": "f1fef7472c1340b058b3708c20101218"
+  },
+  "/home/siddharth/Desktop/dclaw/dclaw-building/docs/guides/use-cases.md": {
+    "mtime": 1778923899.3254147,
+    "ast_hash": "a32156ad90c9adc68a1feaf21dc861d7",
+    "semantic_hash": "a32156ad90c9adc68a1feaf21dc861d7"
+  }
+}
