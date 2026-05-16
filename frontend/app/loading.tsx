@@ -1,1 +1,3 @@
-export default function Loading() { return <div style={{padding:40,color:'#94a3b8'}}>Loading...</div>; }
+export default function Loading() {
+  return <div className="flex items-center justify-center py-20 text-muted-foreground">Loading...</div>
+}

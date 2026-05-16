@@ -28,6 +28,11 @@ app.add_middleware(
 )
 
 app.include_router(health.router, prefix="/health", tags=["health"])
-# TODO: Wire v1 routers here after creating them
-# from app.api.v1 import some_router
-# app.include_router(some_router.router, prefix="/api/v1/some", tags=["some"])
+
+# v1 API routers
+from app.api.v1 import buildings_router, maintenance_router, systems_router, tenants_router, dashboard_router
+app.include_router(buildings_router, prefix="/api/v1/buildings", tags=["buildings"])
+app.include_router(maintenance_router, prefix="/api/v1/maintenance", tags=["maintenance"])
+app.include_router(systems_router, prefix="/api/v1/systems", tags=["systems"])
+app.include_router(tenants_router, prefix="/api/v1/tenants", tags=["tenants"])
+app.include_router(dashboard_router, prefix="/api/v1/dashboard", tags=["dashboard"])
