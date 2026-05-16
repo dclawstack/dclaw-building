@@ -1,21 +1,30 @@
-from fastapi.testclient import TestClient
-from app.main import app
+"""Smoke tests for the API."""
 
-client = TestClient(app)
+import pytest
 
-def test_health():
-    response = client.get("/health")
+
+@pytest.mark.asyncio
+async def test_health_check(client):
+    response = await client.get("/health/")
     assert response.status_code == 200
-    assert response.json() == {"status": "ok"}
+    assert response.json()["status"] == "ok"
 
-def test_create_health():
-    response = client.post("/healths", json={"building_id": "BLD-001"})
+
+@pytest.mark.asyncio
+async def test_api_docs(client):
+    response = await client.get("/docs")
+    assert response.status_code == 200
+
+
+@pytest.mark.asyncio
+async def test_openapi_schema(client):
+    response = await client.get("/openapi.json")
     assert response.status_code == 200
     data = response.json()
-    assert data["building_id"] == "BLD-001"
-    assert "id" in data
-
-def test_get_systems():
-    response = client.get("/healths/abc/systems")
-    assert response.status_code == 200
-    assert len(response.json()) == 4
+    assert "paths" in data
+    # Verify our v1 routes are registered
+    assert "/api/v1/buildings/" in data["paths"]
+    assert "/api/v1/maintenance/" in data["paths"]
+    assert "/api/v1/systems/" in data["paths"]
+    assert "/api/v1/tenants/" in data["paths"]
+    assert "/api/v1/dashboard/" in data["paths"]

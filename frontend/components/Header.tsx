@@ -1,12 +1,4 @@
-import { Building } from 'lucide-react';
+// Deprecated: Use app/layout.tsx nav header instead
 export default function Header() {
-  return (
-    <header style={{display:'flex',alignItems:'center',gap:12,padding:'20px 40px',borderBottom:'1px solid #1e293b'}}>
-      <Building color="#475569" size={28} />
-      <div>
-        <h1 style={{fontSize:20,fontWeight:700,color:'#f8fafc'}}>DClaw Building</h1>
-        <p style={{fontSize:12,color:'#94a3b8'}}>Smart building management</p>
-      </div>
-    </header>
-  );
+  return null;
 }
