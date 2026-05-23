@@ -7,8 +7,8 @@
 
 **DClaw Building** is a vertical SaaS application built on the DClaw Stack.
 
-- **Backend Port:** `8055` (FastAPI)
-- **Frontend Port:** `3055` (Next.js)
+- **Backend Port:** `8143` (FastAPI)
+- **Frontend Port:** `3057` (Next.js)
 - **Database:** `dclaw_building` (PostgreSQL)
 - **Base API Path:** `/api/v1`
 
@@ -63,8 +63,13 @@ Building/
 │   │   └── __init__.py           # REQUIRED for pytest discovery
 │   └── Dockerfile
 ├── frontend/
+│   ├── app/                      # Re-export shims for src/app/ pages
+│   ├── components/               # Shared app components (SeedWidget, ThemeProvider, etc.)
 │   ├── src/
-│   │   ├── app/                  # Next.js App Router
+│   │   ├── app/                  # Next.js App Router (pages + layouts)
+│   │   │   ├── dashboard/        # Portfolio dashboard page
+│   │   │   ├── buildings/        # Building list, detail, new
+│   │   │   └── maintenance/      # Maintenance list, new (with status field)
 │   │   ├── components/ui/        # Pre-built UI components (see below)
 │   │   │   ├── button.tsx
 │   │   │   ├── card.tsx

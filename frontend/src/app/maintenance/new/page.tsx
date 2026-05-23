@@ -86,7 +86,7 @@ export default function NewMaintenancePage() {
               <Input id="description" required value={form.description}
                 onChange={(e) => setForm({ ...form, description: e.target.value })} placeholder="Detailed description of the issue..." />
             </div>
-            <div className="grid gap-4 sm:grid-cols-2">
+            <div className="grid gap-4 sm:grid-cols-3">
               <div className="space-y-2">
                 <Label>Priority</Label>
                 <Select value={form.priority} onChange={(e) => setForm({ ...form, priority: e.target.value })}>
@@ -94,6 +94,15 @@ export default function NewMaintenancePage() {
                   <option value="medium">Medium</option>
                   <option value="high">High</option>
                   <option value="critical">Critical</option>
+                </Select>
+              </div>
+              <div className="space-y-2">
+                <Label>Status</Label>
+                <Select value={form.status ?? "open"} onChange={(e) => setForm({ ...form, status: e.target.value })}>
+                  <option value="open">Open</option>
+                  <option value="in_progress">In Progress</option>
+                  <option value="resolved">Resolved</option>
+                  <option value="closed">Closed</option>
                 </Select>
               </div>
               <div className="space-y-2">
