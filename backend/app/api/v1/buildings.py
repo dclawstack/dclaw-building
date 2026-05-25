@@ -10,7 +10,7 @@ from app.repositories.building import BuildingRepository
 router = APIRouter()
 
 
-@router.get("/", response_model=list[BuildingResponse])
+@router.get("", response_model=list[BuildingResponse])
 async def list_buildings(
     limit: int = Query(default=20, ge=1, le=100),
     offset: int = Query(default=0, ge=0),
@@ -30,7 +30,7 @@ async def get_building(building_id: str, db: AsyncSession = Depends(get_db)):
     return building
 
 
-@router.post("/", response_model=BuildingResponse, status_code=201)
+@router.post("", response_model=BuildingResponse, status_code=201)
 async def create_building(body: BuildingCreate, db: AsyncSession = Depends(get_db)):
     repo = BuildingRepository(db)
     from app.models.building import Building

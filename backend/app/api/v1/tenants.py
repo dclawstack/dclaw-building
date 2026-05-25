@@ -10,7 +10,7 @@ from app.repositories.tenant import TenantRepository
 router = APIRouter()
 
 
-@router.get("/", response_model=list[TenantResponse])
+@router.get("", response_model=list[TenantResponse])
 async def list_tenants(
     building_id: str | None = Query(default=None),
     limit: int = Query(default=20, ge=1, le=100),
@@ -34,7 +34,7 @@ async def get_tenant(tenant_id: str, db: AsyncSession = Depends(get_db)):
     return item
 
 
-@router.post("/", response_model=TenantResponse, status_code=201)
+@router.post("", response_model=TenantResponse, status_code=201)
 async def create_tenant(body: TenantCreate, db: AsyncSession = Depends(get_db)):
     from app.models.tenant import Tenant
     from app.repositories.building import BuildingRepository

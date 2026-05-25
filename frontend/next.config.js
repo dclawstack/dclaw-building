@@ -1,12 +1,18 @@
 /** @type {import('next').NextConfig} */
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8143';
-
 const nextConfig = {
   output: 'standalone',
+  // Keep trailing slashes intact so `/api/v1/buildings/` proxies straight to
+  // the FastAPI list routes (defined as `@router.get("")`) instead of being
+  // 308-redirected to the slashless path before the rewrite runs.
+  skipTrailingSlashRedirect: true,
   async rewrites() {
+    // Server-side proxy target. The browser always calls relative `/api/*`
+    // and `/health/*` (so NEXT_PUBLIC_API_URL stays ""); Next rewrites them to
+    // the backend service inside the cluster. Overridable via BACKEND_URL.
+    const backend = process.env.BACKEND_URL || 'http://dclaw-building-backend:8143';
     return [
-      { source: '/api/v1/:path*', destination: `${API_BASE}/api/v1/:path*` },
-      { source: '/health', destination: `${API_BASE}/health` },
+      { source: '/api/:path*', destination: `${backend}/api/:path*` },
+      { source: '/health/:path*', destination: `${backend}/health/:path*` },
     ];
   },
 };

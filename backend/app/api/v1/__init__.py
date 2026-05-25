@@ -4,6 +4,7 @@ from app.api.v1.systems import router as systems_router
 from app.api.v1.tenants import router as tenants_router
 from app.api.v1.dashboard import router as dashboard_router
 from app.api.v1.demo import router as demo_router
+from app.api.v1.seed import router as seed_router
 
 __all__ = [
     "buildings_router",
@@ -12,4 +13,5 @@ __all__ = [
     "tenants_router",
     "dashboard_router",
     "demo_router",
+    "seed_router",
 ]

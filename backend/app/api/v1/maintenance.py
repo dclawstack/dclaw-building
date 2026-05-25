@@ -15,7 +15,7 @@ from app.repositories.maintenance import MaintenanceRequestRepository
 router = APIRouter()
 
 
-@router.get("/", response_model=list[MaintenanceRequestResponse])
+@router.get("", response_model=list[MaintenanceRequestResponse])
 async def list_maintenance(
     building_id: str | None = Query(default=None),
     status: str | None = Query(default=None),
@@ -42,7 +42,7 @@ async def get_maintenance(request_id: str, db: AsyncSession = Depends(get_db)):
     return item
 
 
-@router.post("/", response_model=MaintenanceRequestResponse, status_code=201)
+@router.post("", response_model=MaintenanceRequestResponse, status_code=201)
 async def create_maintenance(body: MaintenanceRequestCreate, db: AsyncSession = Depends(get_db)):
     from app.models.maintenance import MaintenanceRequest
     from app.repositories.building import BuildingRepository

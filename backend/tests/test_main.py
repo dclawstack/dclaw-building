@@ -22,9 +22,11 @@ async def test_openapi_schema(client):
     assert response.status_code == 200
     data = response.json()
     assert "paths" in data
-    # Verify our v1 routes are registered
-    assert "/api/v1/buildings/" in data["paths"]
-    assert "/api/v1/maintenance/" in data["paths"]
-    assert "/api/v1/systems/" in data["paths"]
-    assert "/api/v1/tenants/" in data["paths"]
-    assert "/api/v1/dashboard/" in data["paths"]
+    # Verify our v1 routes are registered (collection routes are slashless so
+    # the Next.js proxy can forward `/api/v1/buildings/` without a host-leaking
+    # redirect — see app/api/v1/*.py and frontend next.config.js).
+    assert "/api/v1/buildings" in data["paths"]
+    assert "/api/v1/maintenance" in data["paths"]
+    assert "/api/v1/systems" in data["paths"]
+    assert "/api/v1/tenants" in data["paths"]
+    assert "/api/v1/dashboard" in data["paths"]

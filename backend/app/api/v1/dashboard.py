@@ -11,7 +11,7 @@ from app.models.maintenance import MaintenanceRequest
 router = APIRouter()
 
 
-@router.get("/")
+@router.get("")
 async def get_dashboard(db: AsyncSession = Depends(get_db)):
     # Count buildings
     total_buildings_result = await db.execute(select(func.count()).select_from(Building))

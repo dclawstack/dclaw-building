@@ -10,7 +10,7 @@ from app.repositories.system import BuildingSystemRepository
 router = APIRouter()
 
 
-@router.get("/", response_model=list[BuildingSystemResponse])
+@router.get("", response_model=list[BuildingSystemResponse])
 async def list_systems(
     building_id: str | None = Query(default=None),
     limit: int = Query(default=20, ge=1, le=100),
@@ -34,7 +34,7 @@ async def get_system(system_id: str, db: AsyncSession = Depends(get_db)):
     return item
 
 
-@router.post("/", response_model=BuildingSystemResponse, status_code=201)
+@router.post("", response_model=BuildingSystemResponse, status_code=201)
 async def create_system(body: BuildingSystemCreate, db: AsyncSession = Depends(get_db)):
     from app.models.system import BuildingSystem
     from app.repositories.building import BuildingRepository
