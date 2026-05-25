@@ -1,95 +1,95 @@
-# DClaw Scaffold
+# DClaw Building
 
-> **The single source of truth for new DClaw app development.**
-> Clone this repo, rename it, fill in your `PRODUCT-SPEC.md`, and hand it to your coding agents.
+Building management SaaS — monitor buildings, tenants, systems, and maintenance requests.
 
-## What This Is
+## Ports
 
-This scaffold contains the **complete boilerplate** for any DClaw vertical SaaS app:
-- ✅ FastAPI backend with correct SQLAlchemy 2.0 setup
-- ✅ Next.js 14 frontend with Tailwind + pre-built UI components
-- ✅ Docker + docker-compose with working healthchecks
-- ✅ Helm chart for Kubernetes deployment
-- ✅ Alembic migrations setup
-- ✅ pytest test harness with pinned pytest-asyncio==0.24.0
-- ✅ GitHub Actions CI
-- ✅ `AGENTS.md` + `PLAN-v1.2.md` templates
-- ✅ Pre-built UI components (no shadcn CLI needed)
+| Service | Port |
+|---------|------|
+| Backend (FastAPI) | 8143 |
+| Frontend (Next.js) | 3057 |
+| Database (Postgres) | 5434 |
 
-## How to Use
+## Local Dev
 
+### Prerequisites
+- Docker running
+- Python venv at `backend/.venv`
+- Node modules at `frontend/node_modules`
+
+### Start Database
 ```bash
-# 1. Clone the scaffold
-git clone https://github.com/dclawstack/dclaw-scaffold.git dclaw-YOURAPP
-cd dclaw-YOURAPP
-
-# 2. Find/replace placeholders
-# {APP_NAME}    -> Your app name (e.g., CRM)
-# {BACKEND_PORT}-> Next free port (see port registry below)
-# {FRONTEND_PORT}-> Next free port
-# {DB_NAME}     -> dclaw_yourapp
-
-# 3. Write your PRODUCT-SPEC.md
-# See PRODUCT-SPEC.md.template for the format
-
-# 4. Hand to your coding agents
-# See SCALING-PLAYBOOK.md for the parallel agent workflow
+docker start dclaw-building-db
+# First time:
+# docker run -d --name dclaw-building-db -e POSTGRES_USER=learn -e POSTGRES_PASSWORD=learn -e POSTGRES_DB=dclaw_building -p 5434:5432 postgres:15
 ```
 
-## Critical Rules for Agents
+### Run Migrations
+```bash
+cd backend
+source .venv/bin/activate
+alembic upgrade head
+```
 
-### DO NOT install shadcn CLI
-The scaffold includes pre-built UI components in `frontend/src/components/ui/`. Installing `shadcn` v4 or `@base-ui/react` will break the Tailwind v3 build.
+### Start Backend
+```bash
+cd backend
+source .venv/bin/activate
+uvicorn app.api.main:app --reload --port 8143
+```
 
-### DO NOT change the Postgres test port
-`backend/tests/conftest.py` uses `localhost:5432`. GitHub Actions CI maps the Postgres service to port 5432. Changing this breaks CI.
+### Start Frontend
+```bash
+cd frontend
+npm run dev
+```
 
-### DO NOT delete `.github/workflows/ci.yml`
-This file is required for GitHub Actions to run tests on every push.
+### Seed Demo Data
+```bash
+curl -X POST http://localhost:8143/api/v1/building/demo/seed
+# Or use the SeedWidget on the landing page at http://localhost:3057
+# The SeedWidget shows a success/clear toast and the "Clear Data" button
+# is always visible (disabled when no demo data is seeded).
+```
 
-### DO NOT upgrade pytest-asyncio
-Keep `pytest-asyncio==0.24.0` pinned in `requirements.txt`. v1.3.0 breaks fixture scoping.
+## E2E Tests
+Requires backend running on port 8143 and Docker DB on 5434.
+```bash
+cd frontend
+npx playwright test
+```
 
-## Port Registry
+## Frontend Pages
 
-| App | Backend Port | Frontend Port | Database |
-|-----|-------------|---------------|----------|
-| dclaw-chat | 8090 | 3000 | dclaw_chat |
-| dclaw-med | 8092 | 3004 | dclaw_med |
-| dclaw-learn | 8093 | 3003 | dclaw_learn |
-| dclaw-code | 8094 | 3005 | dclaw_code |
-| dclaw-legal | 8099 | 3013 | dclaw_legal |
-| dclaw-crm | 8095 | 3006 | dclaw_crm |
-| dclaw-finance | 8096 | 3007 | dclaw_finance |
-| dclaw-hr | 8097 | 3008 | dclaw_hr |
-| **TBD #9** | **8098** | **3009** | **dclaw_xxx** |
-| **TBD #10** | **8100** | **3010** | **dclaw_xxx** |
+| Path | Description |
+|------|-------------|
+| `/` | Landing page — hero, feature grid, SeedWidget |
+| `/dashboard` | Portfolio dashboard — aggregate stats, recent buildings |
+| `/buildings` | Building list with CRUD |
+| `/buildings/new` | Create a new building |
+| `/buildings/[id]` | Building detail — tenants, systems, maintenance |
+| `/maintenance` | All maintenance requests |
+| `/maintenance/new` | Create maintenance request (with status field) |
 
-> **Rule:** New apps take the next available port. Update this table when assigning.
+## Backend Entry Point
+`backend/app/api/main.py` — routers mounted at `/api/v1/<resource>/`
 
-## Files You Must Customize
-
-| File | What to Change |
-|------|---------------|
-| `backend/app/core/config.py` | `app_name`, default database name |
-| `backend/app/api/main.py` | Wire v1 routers |
-| `frontend/package.json` | Package name |
-| `frontend/src/app/layout.tsx` | Title, description |
-| `frontend/src/app/page.tsx` | Dashboard content |
-| `docker-compose.yml` | Port mappings |
-| `helm/Chart.yaml` | Chart name |
-| `helm/values.yaml` | Image repository names |
-| `AGENTS.md` | App identity, port numbers |
-| `PLAN-v1.2.md` | Feature backlog |
-| `PRODUCT-SPEC.md` | (Create this) Domain models, business logic |
-
-## What You Should NOT Change
-
-- `app/models/base.py` — `DeclarativeBase` pattern
-- `app/core/database.py` — Engine/session factory
-- `docker-compose.yml` healthcheck commands
-- `frontend/Dockerfile` `ARG NEXT_PUBLIC_API_URL` pattern
-- `tests/conftest.py` — Test DB override pattern (keep `localhost:5432`)
-- `frontend/src/components/ui/*.tsx` — Pre-built components (use as-is)
-- `requirements.txt` — Keep `pytest-asyncio==0.24.0` pinned
-- `.github/workflows/ci.yml` — Do not delete
+## Key Routes
+| Method | Path | Description |
+|--------|------|-------------|
+| GET | `/health` | Health check |
+| GET | `/api/v1/buildings/` | List buildings |
+| GET | `/api/v1/buildings/{id}` | Get building |
+| POST | `/api/v1/buildings/` | Create building |
+| PUT | `/api/v1/buildings/{id}` | Update building |
+| DELETE | `/api/v1/buildings/{id}` | Delete building |
+| GET | `/api/v1/tenants/` | List tenants |
+| GET | `/api/v1/systems/` | List systems |
+| GET | `/api/v1/maintenance/` | List maintenance requests |
+| POST | `/api/v1/maintenance/` | Create maintenance request |
+| PUT | `/api/v1/maintenance/{id}` | Update maintenance request |
+| DELETE | `/api/v1/maintenance/{id}` | Delete maintenance request |
+| GET | `/api/v1/dashboard/` | Dashboard aggregate stats |
+| POST | `/api/v1/building/demo/seed` | Seed demo data |
+| DELETE | `/api/v1/building/demo/clear` | Clear demo data |
+| GET | `/api/v1/building/demo/status` | Demo data status |
