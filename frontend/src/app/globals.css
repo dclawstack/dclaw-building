@@ -24,6 +24,8 @@
     --input: 214.3 31.8% 85%;
     --ring: 215 23% 34%;
     --radius: 0.5rem;
+    --brand: #0891B2;
+    --brand-secondary: #10B981;
   }
 
   .dark {
@@ -46,6 +48,8 @@
     --border: 217 33% 22%;
     --input: 217 33% 22%;
     --ring: 213 27% 60%;
+    --brand: #0891B2;
+    --brand-secondary: #10B981;
   }
 }
 
@@ -67,6 +71,25 @@
   --border-col: #cbd5e1;
   --accent-col: #475569;
 }
+@keyframes dclaw-float {
+  0%, 100% { transform: translateY(0) rotate(0deg); opacity: 0.7; }
+  50% { transform: translateY(-12px) rotate(1deg); opacity: 1; }
+}
+.animate-float {
+  animation: dclaw-float 4s ease-in-out infinite;
+}
+
+@keyframes dclaw-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-scroll {
+  animation: dclaw-scroll 30s linear infinite;
+}
+.animate-scroll:hover {
+  animation-play-state: paused;
+}
+
 .dark {
   --bg: #0f172a;
   --surface: #162033;

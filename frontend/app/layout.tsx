@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/ThemeProvider"
-import { NavHeader } from "@/components/NavHeader"
+import AppShell from "@/components/app-shell"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -19,12 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className={inter.className}>
         <ThemeProvider>
-          <div className="min-h-screen bg-[var(--bg)]">
-            <NavHeader />
-            <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
-              {children}
-            </main>
-          </div>
+          <AppShell>{children}</AppShell>
         </ThemeProvider>
       </body>
     </html>
